@@ -1,0 +1,36 @@
+header {
+  background-image: url(https://kauaifestivals.com/wp-content/uploads/2018/03/pingpong.jpg);
+  background-size: cover;
+  height: 80vh;
+}
+#middle {
+  height: 80vh;
+}
+#one {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  justify-content: space-between;
+}
+#top {
+  background-color: red;
+  background-size: cover;
+  height: 60vh;
+}
+footer {
+  background-color: black;
+  color: white;
+  height: 10vh;
+}
+#bottom {
+  background-image: linear-gradient(to right, blue, black);
+  color: white;
+  justify-content: center;
+  background-size: cover;
+}
+#cardarea {
+  height: 80vh;
+}
+#cards {
+  justify-content: center;
+}
