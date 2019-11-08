@@ -11,6 +11,8 @@ header {
   height: 250px;
   width: 250px;
   justify-content: space-between;
+  margin-top: 75px;
+  margin-bottom: 15px;
 }
 #top {
   background-color: red;
@@ -31,6 +33,16 @@ footer {
 #cardarea {
   height: 80vh;
 }
-#cards {
+#card {
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#breakline {
+  height: 10px;
+  background-color: black;
+}
+#whitearea {
+  height: 20vh;
+  background-color: white;
 }
