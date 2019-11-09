@@ -15,7 +15,7 @@ header {
   margin-bottom: 15px;
 }
 #top {
-  background-color: red;
+  background-image: linear-gradient(to right, green, black);
   background-size: cover;
   height: 60vh;
 }
