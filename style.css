@@ -2,9 +2,10 @@ header {
   background-image: url(https://kauaifestivals.com/wp-content/uploads/2018/03/pingpong.jpg);
   background-size: cover;
   height: 80vh;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 #middle {
-  height: 80vh;
 }
 #one {
   border-radius: 50%;
@@ -15,34 +16,79 @@ header {
   margin-bottom: 15px;
 }
 #top {
-  background-image: linear-gradient(to right, green, black);
+  background-image: linear-gradient(to right, red, black);
   background-size: cover;
-  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 footer {
   background-color: black;
   color: white;
-  height: 10vh;
+  height: 5vh;
 }
 #bottom {
-  background-image: linear-gradient(to right, blue, black);
+  background-image: linear-gradient(to right, green, black);
   color: white;
   justify-content: center;
   background-size: cover;
+  align-items: center;
+  display: flex;
+  padding: 50px;
 }
-#cardarea {
-  height: 80vh;
+main {
+  height: auto;
 }
 #card {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  background-color: burlywood;
+  color: black;
 }
 #breakline {
-  height: 10px;
+  height: 5px;
   background-color: black;
 }
 #whitearea {
-  height: 20vh;
   background-color: white;
+  display: flex;
+  height: 20vh;
+}
+#bruce {
+  height: "300px";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+}
+#brucerow {
+  padding: 50px;
+}
+#cats {
+  height: auto;
+  width: auto;
+}
+#video {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+#playbutton {
+  cursor: pointer;
+  height: 40px;
+  width: 350px;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, red, black);
+}
+#playbutton:hover {
+  background-image: linear-gradient(to left, red, rgb(0, 0, 0));
+}
+#cardbutton {
+  background-color: yellow;
+  width: 100px;
+  height: 33px;
+  border-radius: 4px;
 }

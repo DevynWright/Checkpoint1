@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 shrink-to-fit=no"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Clone Site</title>
     <link
@@ -26,6 +29,7 @@
                 width="60px"
               />
             </a>
+
             <button
               class="navbar-toggler"
               type="button"
@@ -37,6 +41,7 @@
             >
               <span class="navbar-toggler-icon"></span>
             </button>
+
             <div
               class="collapse navbar-collapse flex-end"
               id="navbarNavDropdown"
@@ -80,19 +85,19 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-sm-12 order-sm-2 order-md-1">
+        <div class="col-md-6 col-sm-12 order-sm-1 order-md-1">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
             provident, harum animi blanditiis labore explicabo nostrum officiis
             libero illo impedit modi quisquam praesentium vel repellat quibusdam
             omnis repellendus, reiciendis velit.
           </p>
-          <button>Let's Play!</button>
+          <button id="playbutton">Let's Play!</button>
         </div>
-        <div class="col-md-6 col-sm-12 order-sm-1 order-md-2">
+        <div id="video" class="col-md-6 col-sm-12 order-sm-2 order-md-2">
           <iframe
             width="560"
-            height="315"
+            height="560"
             src="https://www.youtube.com/embed/EuXKHxRcRbQ"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -118,7 +123,7 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <button>tbd</button>
+              <button id="cardbutton">Let's</button>
             </div>
           </div>
         </div>
@@ -130,12 +135,12 @@
             alt="..."
           />
           <div id="card" class="card" style="width: 18rem;">
-            <div class="card-body" style="background-color: cadetblue;">
-              <p class="card-text" style="color: cornsilk;">
+            <div class="card-body">
+              <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <button>tbd</button>
+              <button id="cardbutton">Play</button>
             </div>
           </div>
         </div>
@@ -152,7 +157,7 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <button>tbd</button>
+              <button id="cardbutton">Pong</button>
             </div>
           </div>
         </div>
@@ -163,17 +168,17 @@
       <!-- white space ^^^ -->
       <break class="row"></break>
     </main>
-    <middle class="container">
-      <div id="middle" class="row text-center">
-        <div id="bruce" class="col-md-5 col-sm-12 image-bruce">
+    <div id="middle" class="container">
+      <div id="brucerow" class="row text-center">
+        <div id="bruce" class="col-md-6 col-sm-12">
           <img
             src="https://media1.giphy.com/media/3upAsNdajOVkA/source.gif"
-            height="300px"
-            width="300px"
             alt=""
+            height="300px"
+            width="320 px"
           />
         </div>
-        <div class="col-md-5 col-sm-12">
+        <div id="bruce" class="col-md-6 col-sm-12">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
             voluptate nulla nisi, odit ipsam maiores eligendi laboriosam quam
@@ -182,20 +187,20 @@
           </p>
         </div>
       </div>
-    </middle>
+    </div>
     <bottom class="container-fluid">
       <div id="bottom" class="row">
         <div class="col-12 text-center">
           <img
+            class="responsive img-fluid"
+            id="cats"
             src="http://giphygifs.s3.amazonaws.com/media/fvA1ieS8rEV8Y/giphy.gif"
             alt=""
-            height="300px"
-            width="300px"
           />
         </div>
         <div class="col-12"></div>
         <span>
-          Lorem ipsum dolor sit amet
+          Ping Pong for everyone
         </span>
       </div>
     </bottom>
