@@ -44,6 +44,7 @@ main {
   margin-right: auto;
   background-color: burlywood;
   color: black;
+  position: relative;
 }
 #breakline {
   height: 5px;
@@ -90,4 +91,9 @@ main {
   width: 100px;
   height: 33px;
   border-radius: 4px;
+  position: absolute;
+}
+#card-body {
+  position: absolute;
+  bottom: -0.25em;
 }
